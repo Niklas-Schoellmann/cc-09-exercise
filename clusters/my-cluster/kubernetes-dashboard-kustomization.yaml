@@ -5,12 +5,13 @@ metadata:
   namespace: flux-system
 spec:
   interval: 30m0s
-  path: ./kustomize
+  path: ./manifest/kubernetes-dashboard
   prune: true
   retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
-    name: kubernetes-dashboard
+    name: cc-09-exercise
+    namespace: flux-system
   targetNamespace: default
   timeout: 3m0s
   wait: true
