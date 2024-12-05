@@ -10,7 +10,7 @@ spec:
   retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
-    name: cc-09-exercise
+    name: Niklas-Schoellmann/cc-09-exercise
     namespace: flux-system
   targetNamespace: default
   timeout: 3m0s
